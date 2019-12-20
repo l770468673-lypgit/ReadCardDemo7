@@ -338,6 +338,7 @@ public class MainActivity extends Activity {
         return true;
     }
 
+    
     public static byte[] hexStr2byte(String hexStr) {
         System.out.println("hexStr2byte");
         if (!isHexStr(hexStr) || hexStr.length() % 2 != 0) {
